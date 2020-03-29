@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Climbing and Skiing - Gavin Boggs</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><strong>Climbing and Skiing</strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="engineering.html">Engineering and Data</a></li>
+						<li><a href="climbing.html">Climbing and Skiing</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+					<a class="image fit"><img src="images/hoodview.jpg" alt="" /></a>
+					<p>This page is still being developed. Check back soon.</p>
+					<div class="row">
+							<ul class="actions small">
+								<li><a href="documents/GavinBoggsClimbingResume_2019.pdf" target="_blank" class="button alt small">Climbing Resume (PDF)</a></li>
+							</ul>
+					</div>
+					<div class="table-wrapper">
+						<table id='table'>
+							<thead>
+								<tr>
+									<th></th>
+									<th>Route</th>
+									<th>Date</th>
+									<th>Type</th>
+									<th>Difficulty</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="mailto:gavin@gavinboggs.com" class="icon fa-send" onclick="mailto(this);event.preventDefault()"></a></li>
+						<li><a href="https://www.linkedin.com/in/gavinboggs/" target="_blank" class="icon fa-linkedin"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Gavin Boggs 2020</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script>
+				loadData(processTable);
+				
+				function loadData(callback) {
+                    $.getJSON("http://localhost/~gavin/climbs.json",
+					function (data) {
+						var tr;
+						for (var i = 0; i < data.length; i++) {
+							tr = $('<tr/>');
+							tr.addClass("collapsible");
+							tr.append("<td class=\"collapseIndicator\">+");
+							tr.append("<td>" + data[i].Route);
+							tr.append("<td>" + data[i].Date);
+							tr.append("<td>" + data[i].Type);
+							tr.append("<td>" + data[i].Difficulty);
+							cont = $('<tr/>');
+							cont.addClass("content");
+							cont.append("<td>");
+							str = "";
+							if ("Image" in data[i]) {
+                                str = str.concat("<a class=\"image right\"><img src=" + data[i].Image + "/></a>");
+                            }
+							$.each(data[i], function( index, value ) {
+								if ($.inArray(index,["Route","Date","Type","Difficulty","Image"]) < 0) {
+                                    str = str.concat(index + ": " + value + "<br>");
+                                }
+							});
+							cont.append("<td colspan='4'>" + str);
+							$('#table').append(tr);
+							$('#table').append(cont);
+						}
+						callback()
+					});
+                }
+				//Control opening and closing of table rows
+				function processTable(){
+					console.log("start process");
+					var coll = document.getElementsByClassName("collapsible");
+					var i;
+					for (i = 0; i < coll.length; i++) {
+						console.log("item");
+						coll[i].addEventListener("click", function() {
+							this.classList.toggle("active");
+							var content = this.nextElementSibling;
+							if (content.style.display === "contents") {
+								content.style.display = "none";
+								this.firstElementChild.innerHTML = "+";
+							}
+							else {
+								content.style.display = "contents";
+								this.firstElementChild.innerHTML = "-";
+							}
+						});
+					}
+					console.log("end process");
+					console.log(coll.length);
+				}
+			</script>
+			
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script>
+				// Open mailto links in a new tab
+				function mailto(th) {
+					var url = th.getAttribute('href');
+					window.open(url);
+				}
+			</script>
+	</body>
+</html>

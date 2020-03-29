@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<!--
+	Spatial by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Engineering and Data Science - Gavin Boggs</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><strong>Engineering and Data Science</strong></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="engineering.html">Engineering and Data</a></li>
+						<li><a href="climbing.html">Climbing and Skiing</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+					<a href="#" class="image fit"><img src="images/hoodview.jpg" alt="" /></a>
+					<p>This page is still being developed. Check back soon.</p>
+					<div id="resume"></div>
+					<div style="padding-top:2em" class="row">
+							<ul class="actions small">
+								<li><a href="#" class="button alt small">Engineering Resume (PDF)</a></li>
+							</ul>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="mailto:gavin@gavinboggs.com" class="icon fa-send" onclick="mailto(this);event.preventDefault()"></a></li>
+						<li><a href="https://www.linkedin.com/in/gavinboggs/" target="_blank" class="icon fa-linkedin"></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Gavin Boggs 2020</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// Load sections
+				$(function(){
+					$("#resume").load("http://localhost/~gavin/resume.html");
+				});
+			</script> 
+			<script>
+				// Open mailto links in a new tab
+				function mailto(th) {
+					var url = th.getAttribute('href');
+					window.open(url);
+				}
+			</script>
+
+	</body>
+</html>
