@@ -1,0 +1,22 @@
+[
+    {
+        "Route": "Reid Glacier Headwall, left variation",
+        "Location": "Mt. Hood",
+        "Date": "2020-03-10",
+        "Type": "Alpine Ice",
+        "Difficulty": "AI2",
+        "Style": "Simul-solo with skis",
+        "Team Size": "4",
+        "Image": "images/testthumb.jpg"
+    },
+    {
+        "Route": "Devil's Kitchen Headwall, left variation",
+        "Location": "Mt. Hood",
+        "Date": "2020-02-18",
+        "Type": "Alpine Ice",
+        "Difficulty": "AI3",
+        "Style": "Lead",
+        "Team Size": "2",
+        "Description": "We had a slow-moving day up to the point of the traverse from the Hogsback to Devil's Kitchen and maybe we should have called it off, the the allure of decent ice was too strong. Another team had just finished climbing a less climbed variation left-of-left and made it look fun, although from talking with them afterwards that might have been an illusion. The left variation (V1) had copious amounts of fluffy powder at the entrance, leading into a tight gully of delicate rime formations and thin water ice smears partially covering chossy volcanic rock."
+    }
+]
