@@ -1813,7 +1813,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #323037;
+		background-color: #97939f;
 		border-radius: 4px;
 		color: #ffffff !important;
 		border: 0;
@@ -1827,6 +1827,7 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		margin-bottom: 1.5em;
 	}
 
 		input[type="submit"]:hover,
@@ -1834,7 +1835,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #3e3c45;
+			background-color: #7a7788;
 		}
 
 		input[type="submit"]:active,
@@ -1842,7 +1843,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #262429;
+			background-color: #97939f;
 		}
 
 		input[type="submit"].icon,
