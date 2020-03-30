@@ -6,7 +6,7 @@
         "Rating": "AI2",
         "Route Type": "Alpine Ice",
         "Style": "Simul-Solo",
-	"Team Size": "4",
+        "Team Size": "4",
         "Notes": "Left Variation"
     },
     {
@@ -15,7 +15,8 @@
         "Location": "Mt. Hood",
         "Rating": "AI3",
         "Route Type": "Alpine Ice",
-        "Style": "Lead"
+        "Style": "Lead",
+        "Team Size": "2"
     },
     {
         "Date": "2020-02-12",
@@ -59,7 +60,7 @@
         "Route Type": "Trad",
         "Style": "Lead",
         "Pitches": "1",
-	"Affiliation": "Mazamas - ICS"
+        "Affiliation": "Mazamas - ICS"
     },
     {
         "Date": "2019-10-11",
@@ -69,7 +70,7 @@
         "Route Type": "Trad",
         "Style": "Lead",
         "Pitches": "1",
-	"Affiliation": "Mazamas - ICS"
+        "Affiliation": "Mazamas - ICS"
     },
     {
         "Date": "2019-10-06",
@@ -79,7 +80,7 @@
         "Route Type": "Trad",
         "Style": "Lead",
         "Pitches": "1",
-	"Affiliation": "Mazamas - ICS"
+        "Affiliation : "Mazamas - ICS"
     },
     {
         "Date": "2019-10-06",
@@ -89,7 +90,7 @@
         "Route Type": "Trad, Sport",
         "Style": "Lead",
         "Pitches": "1",
-	"Affiliation": "Mazamas - ICS",
+        "Affiliation": "Mazamas - ICS",
         "Notes": "Fun nubbins!"
     },
     {
@@ -100,7 +101,7 @@
         "Route Type": "Trad",
         "Style": "Lead",
         "Pitches": "3",
-	"Affiliation": "Mazamas - ICS"
+        "Affiliation": "Mazamas - ICS"
     },
     {
         "Date": "2019-10-05",
@@ -110,7 +111,7 @@
         "Route Type": "Sport",
         "Style": "",
         "Pitches": "1",
-	"Affiliation": "Mazamas - ICS"
+        "Affiliation": "Mazamas - ICS"
     },
     {
         "Date": "2019-10-05",
@@ -120,7 +121,7 @@
         "Route Type": "Sport",
         "Style": "Lead",
         "Pitches": "1",
-	"Affiliation": "Mazamas - ICS"
+        "Affiliation": "Mazamas - ICS"
     },
     {
         "Date": "2019-10-05",
@@ -130,12 +131,12 @@
         "Route Type": "Trad",
         "Style": "Lead",
         "Pitches": "1",
-	"Affiliation": "Mazamas - ICS"
+        "Affiliation": "Mazamas - ICS"
     },
     {
         "Date": "2019-10-02",
         "Route": "South East Corner",
-        "Location": "Beacon Rock,
+        "Location": "Beacon Rock",
         "Rating": "5.7",
         "Route Type": "Trad",
         "Style": "Lead",
