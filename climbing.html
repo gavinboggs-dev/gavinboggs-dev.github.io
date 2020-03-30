@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html>
 	<head>
 		<title>Climbing and Skiing - Gavin Boggs</title>
@@ -61,8 +57,6 @@
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Gavin Boggs 2020</li>
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
 					</ul>
 				</div>
 			</footer>
@@ -73,7 +67,8 @@
 				loadData(processTable);
 				
 				function loadData(callback) {
-                    $.getJSON("documents/climbs.json",
+					var fileLocation = "/";
+					$.getJSON(fileLocation + "documents/climbs.json",
 					function (data) {
 						var tr;
 						for (var i = 0; i < data.length; i++) {
@@ -87,11 +82,16 @@
 							cont.addClass("content");
 							cont.append("<td>");
 							str = "";
-							if ("Image" in data[i]) {
-                                str = str.concat("<a class=\"image right\"><img src=" + data[i].Image + "/></a>");
+							if ("Images" in data[i]) {
+								console.log("images: data[i].Images.length")
+								str = str.concat("<div class=\"image right thumb\">\n");
+								for (var j = 0; j < data[i].Images.length; j++) {
+									str = str.concat("<a class=\"image right\"><img src=" + fileLocation + "images" + data[i].Images[j] + "></a>\n");
+								}
+								str = str.concat("</div>");
                             }
 							$.each(data[i], function( index, value ) {
-								if ($.inArray(index,["Route","Date","Location","Image"]) < 0) {
+								if ($.inArray(index,["Route","Date","Location","Images"]) < 0) {
                                     str = str.concat(index + ": " + value + "<br>");
                                 }
 							});

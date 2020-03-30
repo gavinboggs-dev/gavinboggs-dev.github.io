@@ -7,7 +7,8 @@
         "Route Type": "Alpine Ice",
         "Style": "Simul-Solo",
         "Team Size": "4",
-        "Notes": "Left Variation"
+        "Notes": "Left Variation",
+        "Images": ["reid.jpg"]
     },
     {
         "Date": "2020-02-18",
@@ -220,7 +221,7 @@
         "Route": "Blue Glacier",
         "Location": "Mt. Olympus",
         "Route Type": "Snow, Alpine",
-	"Affiliation": "Mazamas"
+        "Affiliation": "Mazamas"
     },
     {
         "Date": "2019-07-09",
@@ -228,7 +229,8 @@
         "Location": "Mt. Shuksan",
         "Route Type": "Snow, Alpine",
         "Affiliation": "Mazamas",
-        "Notes": "First Mazamas climb."
+        "Notes": "First Mazamas climb.",
+        "Images": ["shuksan.jpg"]
     },
     {
         "Date": "2019-04-21",
