@@ -1,22 +1,539 @@
 [
     {
-        "Route": "Reid Glacier Headwall, left variation",
-        "Location": "Mt. Hood",
         "Date": "2020-03-10",
-        "Type": "Alpine Ice",
-        "Difficulty": "AI2",
-        "Style": "Simul-solo with skis",
-        "Team Size": "4",
-        "Image": "images/testthumb.jpg"
+        "Route": "Reid Glacier Headwall (left)",
+        "Location": "Mt. Hood",
+        "Rating": "AI2",
+        "Route Type": "Alpine Ice",
+        "Style": "Simul-Solo",
+	"Team Size": "4",
+        "Notes": "Left Variation"
     },
     {
-        "Route": "Devil's Kitchen Headwall, left variation",
-        "Location": "Mt. Hood",
         "Date": "2020-02-18",
-        "Type": "Alpine Ice",
-        "Difficulty": "AI3",
+        "Route": "Devil's Kitchen Headwall (DKH) (left)",
+        "Location": "Mt. Hood",
+        "Rating": "AI3",
+        "Route Type": "Alpine Ice",
+        "Style": "Lead"
+    },
+    {
+        "Date": "2020-02-12",
+        "Route": "Rebirth",
+        "Location": "Smith Rock",
+        "Rating": "5.8",
+        "Style": "TR",
+        "Notes": "Fun chimney squirm after finishing the Marsupials Traverse"
+    },
+    {
+        "Date": "2020-02-12",
+        "Route": "Marsupials Traverse",
+        "Location": "Smith Rock",
+        "Rating": "5.8",
+        "Route Type": "Trad",
         "Style": "Lead",
-        "Team Size": "2",
-        "Description": "We had a slow-moving day up to the point of the traverse from the Hogsback to Devil's Kitchen and maybe we should have called it off, the the allure of decent ice was too strong. Another team had just finished climbing a less climbed variation left-of-left and made it look fun, although from talking with them afterwards that might have been an illusion. The left variation (V1) had copious amounts of fluffy powder at the entrance, leading into a tight gully of delicate rime formations and thin water ice smears partially covering chossy volcanic rock."
+        "Pitches": "8",
+        "Notes": "Lusty Lady start. This was a surprisingly fun adventure for Smith. New bolting makes it a comfortable climb."
+    },
+    {
+        "Date": "2019-12-24",
+        "Route": "Reid Glacier Headwall",
+        "Location": "Mt. Hood",
+        "Rating": "AI3 Steep Snow",
+        "Route Type": "Ice, Snow, Alpine",
+        "Style": "Solo",
+        "Pitches": "1",
+        "Notes": "Right/middle variation. I was just out checking out the conditions for a climb later. Turns out the conditions were good enough for a solo climb. Carried skis and dropped in from West Crater Rim without tagging the summit."
+    },
+    {
+        "Date": "2019-12-03",
+        "Route": "South Side Route",
+        "Location": "Mt. Hood",
+        "Notes": "Pearly Gates right variation. 15ft ice step."
+    },
+    {
+        "Date": "2019-10-11",
+        "Route": "Rabbit Stew",
+        "Location": "Smith Rock",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "1",
+	"Affiliation": "Mazamas - ICS"
+    },
+    {
+        "Date": "2019-10-11",
+        "Route": "Lycopodophyta",
+        "Location": "Smith Rock",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "1",
+	"Affiliation": "Mazamas - ICS"
+    },
+    {
+        "Date": "2019-10-06",
+        "Route": "Right Slab Crack",
+        "Location": "Smith Rock",
+        "Rating": "5.6",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "1",
+	"Affiliation": "Mazamas - ICS"
+    },
+    {
+        "Date": "2019-10-06",
+        "Route": "Out of Harm's Way",
+        "Location": "Smith Rock",
+        "Rating": "5.8",
+        "Route Type": "Trad, Sport",
+        "Style": "Lead",
+        "Pitches": "1",
+	"Affiliation": "Mazamas - ICS",
+        "Notes": "Fun nubbins!"
+    },
+    {
+        "Date": "2019-10-06",
+        "Route": "Sky Chimney",
+        "Location": "Smith Rock",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "3",
+	"Affiliation": "Mazamas - ICS"
+    },
+    {
+        "Date": "2019-10-05",
+        "Route": "Anonymity",
+        "Location": "Smith Rock",
+        "Rating": "5.9",
+        "Route Type": "Sport",
+        "Style": "",
+        "Pitches": "1",
+	"Affiliation": "Mazamas - ICS"
+    },
+    {
+        "Date": "2019-10-05",
+        "Route": "Nice Guys Finish Last",
+        "Location": "Smith Rock",
+        "Rating": "5.9",
+        "Route Type": "Sport",
+        "Style": "Lead",
+        "Pitches": "1",
+	"Affiliation": "Mazamas - ICS"
+    },
+    {
+        "Date": "2019-10-05",
+        "Route": "Munchkin Land",
+        "Location": "Smith Rock",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "1",
+	"Affiliation": "Mazamas - ICS"
+    },
+    {
+        "Date": "2019-10-02",
+        "Route": "South East Corner",
+        "Location": "Beacon Rock,
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "6",
+        "Notes": "Fun evening climb with a team of 2 and a team of 3."
+    },
+    {
+        "Date": "2019-09-01",
+        "Route": "South Ridge",
+        "Location": "Three Fingered Jack",
+        "Route Type": "Trad, Alpine",
+        "Style": "Lead",
+        "Notes": "I have to say, this was an enjoyable climb and made for a nice day."
+    },
+    {
+        "Date": "2019-08-30",
+        "Route": "West Ridge",
+        "Location": "Mt Stuart",
+        "Route Type": "Trad, Alpine",
+        "Notes": "Climbed as a team of 3. Camped the first night at the base of Cascadian Couloir. Romping up the 4th class granite was the highlight. Slogging down Cascadian was the low point. Or maybe trying to drive back to Portland the same day was the low point."
+    },
+    {
+        "Date": "2019-08-20",
+        "Route": "Southeast Spur",
+        "Location": "Mt. Washington",
+        "Rating": "5.6 PG13",
+        "Route Type": "Trad, Alpine",
+        "Style": "Swing leads",
+        "Notes": "Went fast-and-light as a team of 2. 12h car-to-car: 4h approaching, 4h climbing, 4h descending and hiking out."
+    },
+    {
+        "Date": "2019-08-11",
+        "Route": "Agathla Unchained",
+        "Location": "Frenchman Coulee",
+        "Rating": "5.10a (?)",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Notes": "Excellent capstone for a fun first trip to Vantage."
+    },
+    {
+        "Date": "2019-08-11",
+        "Route": "Stroken' the Chicken",
+        "Location": "Frenchman Coulee",
+        "Rating": "5.6",
+        "Route Type": "Trad",
+        "Style": "Lead"
+    },
+    {
+        "Date": "2019-08-10",
+        "Route": "Somewhere On Earth",
+        "Location": "Frenchman Coulee",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead"
+    },
+    {
+        "Date": "2019-08-10",
+        "Route": "Edge of Mistakes",
+        "Location": "Frenchman Coulee",
+        "Rating": "5.6",
+        "Route Type": "Trad",
+        "Style": "Lead"
+    },
+    {
+        "Date": "2019-08-10",
+        "Route": "I'm Alright",
+        "Location": "Frenchman Coulee",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead"
+    },
+    {
+        "Date": "2019-07-24",
+        "Route": "Jefferson Park Glacier",
+        "Location": "Mt. Jefferson",
+        "Route Type": "Alpine",
+        "Notes": "Fast-and-light team of 2. 9h camp-to-camp. Super fun day out!"
+    },
+    {
+        "Date": "2019-07-19",
+        "Route": "Blue Glacier",
+        "Location": "Mt. Olympus",
+        "Route Type": "Snow, Alpine",
+	"Affiliation": "Mazamas"
+    },
+    {
+        "Date": "2019-07-09",
+        "Route": "Fisher Chimneys",
+        "Location": "Mt. Shuksan",
+        "Route Type": "Snow, Alpine",
+        "Affiliation": "Mazamas",
+        "Notes": "First Mazamas climb."
+    },
+    {
+        "Date": "2019-04-21",
+        "Route": "Worm Flows",
+        "Location": "Mt. St. Helens",
+        "Style": "Ski",
+        "Notes": "Corn harvest!"
+    },
+    {
+        "Date": "2019-03-31",
+        "Route": "Leuthold Couloir",
+        "Location": "Mt. Hood",
+        "Route Type": "Snow, Alpine",
+        "Style": "Solo with skis",
+        "Notes": "Camped at Illumination Saddle. Got an early start because I was too cold to sleep. This was my first time on the West side of Mt. Hood. Skied down Old Chute and returned to camp in 2.5h."
+    },
+    {
+        "Date": "2018-12-09",
+        "Route": "Solar Slab",
+        "Location": "Red Rock Canyon",
+        "Rating": "5.6",
+        "Route Type": "Trad",
+        "Pitches": "a bunch",
+        "Notes": "This was my second attempt on this route. Efficiency is critical! We started on Johnny Vegas. I led a few of the easier pitches on the upper tier. Unexpected bonus: the hike out takes about as much time and as much focus as the climb up."
+    },
+    {
+        "Date": "2018-07-04",
+        "Route": "South Spur",
+        "Location": "Mount Adams",
+        "Notes": "Fun outing with a couple good friends. We camped at Lunch Counter and made an evening of it. Saw the most amazing shooting star during an early morning pee outing. I can't wait to go back with skis."
+    },
+    {
+        "Date": "2018-05-28",
+        "Route": "Hotlum-Wintun Ridge",
+        "Location": "Mt. Shasta",
+        "Route Type": "Snow, Alpine",
+        "Style": "Ski",
+        "Notes": "Ski trip with a couple friends from SF. We camped at 10,000ft and managed to maintain good cheer through a windy night. The skiing down was challenging for me. This served as good inspiration to get better. Now I'm ready to go back and do it in better style."
+    },
+    {
+        "Date": "2017-07-26",
+        "Route": "Emmons Glacier",
+        "Location": "Mount Rainier",
+        "Route Type": "Snow, Alpine",
+        "Notes": "A friend an I joined forces with a friend of mine from high school and some of his buddies from Seattle. There were 7 of us total on two rope teams. The team opted to do the climb over 3 days, taking a full rest day in Camp Shurman on the second day."
+    },
+    {
+        "Date": "2016-11-23",
+        "Route": "Birds in a Rut",
+        "Location": "Smith Rock",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Swing leads",
+        "Pitches": "6",
+        "Notes": "Birthday climb with a good friend!"
+    },
+    {
+        "Date": "2016-11-22",
+        "Route": "Wherever I May Roam",
+        "Location": "Smith Rock",
+        "Rating": "5.9",
+        "Route Type": "Sport",
+        "Pitches": "5"
+    },
+    {
+        "Date": "2016-11-21",
+        "Route": "Dirty Pinkos",
+        "Location": "Smith Rock",
+        "Rating": "5.9+",
+        "Route Type": "Sport",
+        "Pitches": "4"
+    },
+    {
+        "Date": "2016-10-07",
+        "Route": "Voyage of the Cowdog",
+        "Location": "Smith Rock",
+        "Rating": "5.8+",
+        "Route Type": "Sport",
+        "Pitches": "3"
+    },
+    {
+        "Date": "2016-04-24",
+        "Route": "Edge of Time",
+        "Location": "Jurassic Park, CO",
+        "Rating": "5.9",
+        "Route Type": "Sport",
+        "Style": "Lead"
+    },
+    {
+        "Date": "2016-04-21",
+        "Route": "East Face (Standard)",
+        "Location": "Third Flatiron",
+        "Rating": "5.4",
+        "Route Type": "Trad",
+        "Pitches": "8",
+        "Notes": "This might have been the Fastest Known Time from Philadelphia to Summit. On the other hand, we got passed by a CU student in running shoes."
+    },
+    {
+        "Date": "2016-01-18",
+        "Route": "Chouinard's Gully",
+        "Location": "Keene Valley, NY",
+        "Rating": "WI3",
+        "Route Type": "Ice",
+        "Style": "Lead",
+        "Pitches": "2",
+        "Notes": "We were casually attending the Adirondack International Mountaineering Festival and poking around on some overcrowded classics in the area."
+    },
+    {
+        "Date": "2015-09-06",
+        "Route": "The Armadillo",
+        "Location": "Mt. Katahdin",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "6",
+        "Notes": "The classic. Part of an awesome 4 day climbing / camping trip, staying in a lean-to at Chimney Pond."
+    },
+    {
+        "Date": "2015-07-04",
+        "Route": "Whitney Gilman Ridge",
+        "Location": "Cannon Cliff, NH",
+        "Rating": "5.7",
+        "Route Type": "Trad, Alpine",
+        "Style": "Swing leads",
+        "Pitches": "6"
+    },
+    {
+        "Date": "2015-04-23",
+        "Route": "Led by Sheep",
+        "Location": "Zion NP",
+        "Rating": "5.6",
+        "Pitches": "4"
+    },
+    {
+        "Date": "2014-09-04",
+        "Route": "Peek-a-Boo",
+        "Location": "Table Rock, NC",
+        "Rating": "5.5",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "3",
+        "Notes": "This was my first time climbing in North Carolina, despite growing up there. Turns out there's a lot of great climbing! I should have started earlier in life."
+    },
+    {
+        "Date": "2014-08-24",
+        "Route": "Gunsight to South Peak",
+        "Location": "Seneca Rocks, WV",
+        "Rating": "5.4",
+        "Route Type": "Trad",
+        "Pitches": "2"
+    },
+    {
+        "Date": "2014-06-01",
+        "Route": "Southeast Buttress",
+        "Location": "Cathedral Peak, Yosemite",
+        "Rating": "5.6",
+        "Route Type": "Trad, Alpine",
+        "Style": "Swing leads",
+        "Pitches": "5"
+    },
+    {
+        "Date": "2014-03-29",
+        "Route": "Pinnacle Gully",
+        "Location": "Mt. Washington, NH",
+        "Rating": "WI3",
+        "Route Type": "Ice, Alpine",
+        "Style": "Lead",
+        "Pitches": "3"
+    },
+    {
+        "Date": "2014-02-08",
+        "Route": "Main Flow",
+        "Location": "The Narrows, PA",
+        "Rating": "WI4",
+        "Route Type": "Ice",
+        "Style": "Lead",
+        "Pitches": "3"
+    },
+    {
+        "Date": "2014-01-25",
+        "Route": "Left Corner",
+        "Location": "The Narrows, PA",
+        "Rating": "WI3",
+        "Route Type": "Ice",
+        "Style": "Lead",
+        "Notes": "A super aesthetic line that I had eyed-up for a few weekends in a row before mustering the guts to lead it."
+    },
+    {
+        "Date": "2014-01-19",
+        "Route": "Dogleg",
+        "Location": "Joshua Tree",
+        "Rating": "5.8+",
+        "Route Type": "Trad",
+        "Style": "Follow"
+    },
+    {
+        "Date": "2013-10-14",
+        "Route": "The West Chimney",
+        "Location": "The Eaglet, NH",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "3",
+        "Notes": "One of the most interesting tower climbs I've done on the East Coast. I think I've been up there three times. It just doesn't get old. The mosquitos at the base do get old. It's good inspiration to climb quickly."
+    },
+    {
+        "Date": "2013-10-13",
+        "Route": "Northeast Ridge of the Pinnacle",
+        "Location": "Mt. Washington, NH",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Pitches": "7"
+    },
+    {
+        "Date": "2013-03-09",
+        "Route": "Shoestring Gully",
+        "Location": "Mt. Webster, NH",
+        "Rating": "WI2",
+        "Route Type": "Ice, Alpine",
+        "Style": "Swing leads",
+        "Pitches": "6",
+        "Notes": "One of my first proper alpine ice leads. This may have been the genesis."
+    },
+    {
+        "Date": "2012-05-28",
+        "Route": "Stolen Chimney",
+        "Location": "Ancient Art, UT",
+        "Rating": "5.8 A0",
+        "Route Type": "Trad, Aid",
+        "Style": "Follow",
+        "Pitches": "4",
+        "Notes": "One of the world's most beautiful mud piles."
+    },
+    {
+        "Date": "don't remember",
+        "Route": "Super Slab",
+        "Location": "Smith Rock",
+        "Rating": "5.6",
+        "Route Type": "Trad",
+        "Style": "Swing leads",
+        "Pitches": "3",
+        "Notes": "First climb at Smith."
+    },
+    {
+        "Date": "don't remember",
+        "Route": "Spiderman",
+        "Location": "Smith Rock",
+        "Rating": "5.7",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "2"
+    },
+    {
+        "Date": "don't remember",
+        "Route": "Hot Shot",
+        "Location": "New York > Adirondacks > * Adirondack Ice & Mixed > D: Keene Valley and Chapel Pond > Chapel Pond Canyon",
+        "Rating": "WI4",
+        "Route Type": "Ice",
+        "Style": "Lead",
+        "Pitches": "1",
+        "Notes": "My hardest ice lead at that time. Maybe still the scariest. Climbed on BD Venom tools with leashes - old skool. My protection reflected how pumped I was getting over the course of the climb. I looked down near the top to see a 20ft runout below me, but I knew that if I stopped to place a screw then I would certainly fall. I pushed through the last moves and pulled to safety, gassed and gasping. Back on the ground, I was feeling pretty pleased with myself. A small crowd gathering around the corner to watch Nick Bullock climb a mind-blowingly challenging mixed route. That was probably the most memorable part of the day."
+    },
+    {
+        "Date": "don't remember",
+        "Route": "The Nutcracker Suite (aka Nutcracker)",
+        "Location": "Yosemite",
+        "Rating": "5.8",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Pitches": "5",
+        "Notes": "Cool climb with a cool history."
+    },
+    {
+        "Date": "don't remember",
+        "Route": "Great Red Book",
+        "Location": "Red Rock",
+        "Rating": "5.8",
+        "Route Type": "Trad",
+        "Style": "Swing leads",
+        "Pitches": "2"
+    },
+    {
+        "Date": "don't remember",
+        "Route": "High Exposure",
+        "Location": "The Gunks",
+        "Rating": "5.6",
+        "Route Type": "Trad",
+        "Pitches": "2"
+    },
+    {
+        "Date": "don't remember",
+        "Route": "Birdland",
+        "Location": "Red Rock",
+        "Rating": "5.7+",
+        "Route Type": "Trad",
+        "Style": "Swing leads",
+        "Pitches": "6",
+        "Notes": "Got the rope stuck while rapelling."
+    },
+    {
+        "Date": "don't remember",
+        "Route": "Thin Air > Pine Tree Eliminate",
+        "Location": "Cathedral Ledge, NH",
+        "Rating": "5.8+",
+        "Route Type": "Trad",
+        "Style": "Lead",
+        "Notes": "I had to rest on a cam to take a drink of water in the middle of PTE. That one was no joke."
     }
 ]

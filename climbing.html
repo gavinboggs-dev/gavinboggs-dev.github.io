@@ -42,10 +42,9 @@
 							<thead>
 								<tr>
 									<th></th>
-									<th>Route</th>
 									<th>Date</th>
-									<th>Type</th>
-									<th>Difficulty</th>
+									<th>Route</th>
+									<th>Location</th>
 								</tr>
 							</thead>
 						</table>
@@ -81,10 +80,9 @@
 							tr = $('<tr/>');
 							tr.addClass("collapsible");
 							tr.append("<td class=\"collapseIndicator\">+");
-							tr.append("<td>" + data[i].Route);
 							tr.append("<td>" + data[i].Date);
-							tr.append("<td>" + data[i].Type);
-							tr.append("<td>" + data[i].Difficulty);
+							tr.append("<td>" + data[i].Route);
+							tr.append("<td>" + data[i].Location);
 							cont = $('<tr/>');
 							cont.addClass("content");
 							cont.append("<td>");
@@ -93,7 +91,7 @@
                                 str = str.concat("<a class=\"image right\"><img src=" + data[i].Image + "/></a>");
                             }
 							$.each(data[i], function( index, value ) {
-								if ($.inArray(index,["Route","Date","Type","Difficulty","Image"]) < 0) {
+								if ($.inArray(index,["Route","Date","Location","Image"]) < 0) {
                                     str = str.concat(index + ": " + value + "<br>");
                                 }
 							});
