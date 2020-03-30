@@ -92,7 +92,7 @@
                             }
 							$.each(data[i], function( index, value ) {
 								if ($.inArray(index,["Route","Date","Location","Images"]) < 0) {
-                                    str = str.concat("<i>" + index + "</i>: " + value + "<br>");
+                                    str = str.concat("<i>" + index + ":</i> " + value + "<br>");
                                 }
 							});
 							cont.append("<td colspan='4'>" + str);
