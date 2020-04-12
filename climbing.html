@@ -27,6 +27,12 @@
 				<div class="container">
 					<a class="image fit"><img src="images/hoodview.jpg" alt="" /></a>
 					<h2>Climbing Resume</h2>
+					<ul class="actions small">
+						<li style="margin-bottom:10px">Filter:</li>
+						<li><a class="button alt small" onclick="loadData('Alpine',processTable)">Alpine</a></li>
+						<li><a class="button alt small" onclick="loadData('Rock',processTable)">Rock</a></li>
+						<li><a class="button alt small" onclick="loadData('Ski',processTable)">Ski</a></li>
+					</ul>
 					<div class="table-wrapper">
 						<table id="table">
 							<thead>
@@ -63,40 +69,45 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script>
-				loadData(processTable);
+				loadData("", processTable);
 				
-				function loadData(callback) {
+				function loadData(typeFilter, callback) {
 					var fileLocation = "/";
 					$.getJSON(fileLocation + "documents/climbs.json",
 					function (data) {
 						var tr;
 						for (var i = 0; i < data.length; i++) {
-							tr = $('<tr/>');
-							tr.addClass("collapsible");
-							tr.append("<td class=\"collapseIndicator\">+");
-							tr.append("<td>" + data[i].Date);
-							tr.append("<td>" + data[i].Route);
-							tr.append("<td>" + data[i].Location);
-							cont = $('<tr/>');
-							cont.addClass("content");
-							cont.append("<td>");
-							str = "";
-							if ("Images" in data[i]) {
-								console.log("images: data[i].Images.length")
-								str = str.concat("<div class=\"image right thumb\">\n");
-								for (var j = 0; j < data[i].Images.length; j++) {
-									str = str.concat("<a class=\"image right\"><img src=" + fileLocation + "images/" + data[i].Images[j] + "></a>\n");
+							if ((typeFilter==="") | (data[i].Type.includes(typeFilter))) {
+								tr = $('<tr/>');
+								tr.addClass("collapsible");
+								tr.append("<td class=\"collapseIndicator\">+");
+								tr.append("<td>" + data[i].Date);
+								tr.append("<td>" + data[i].Route);
+								tr.append("<td>" + data[i].Location);
+								cont = $('<tr/>');
+								cont.addClass("content");
+								cont.append("<td>");
+								str = "";
+								if ("Images" in data[i]) {
+									console.log("images: data[i].Images.length")
+									str = str.concat("<div class=\"image right thumb\">\n");
+									for (var j = 0; j < data[i].Images.length; j++) {
+										str = str.concat("<a class=\"image right\"><img src=" + fileLocation + "images/" + data[i].Images[j] + "></a>\n");
+									}
+									str = str.concat("</div>");
 								}
-								str = str.concat("</div>");
-                            }
-							$.each(data[i], function( index, value ) {
-								if ($.inArray(index,["Route","Date","Location","Images"]) < 0) {
-                                    str = str.concat("<i>" + index + ":</i> " + value + "<br>");
-                                }
-							});
-							cont.append("<td colspan='4'>" + str);
-							$('#table').append(tr);
-							$('#table').append(cont);
+								$.each(data[i], function( index, value ) {
+									if ($.inArray(index,["Route","Date","Location","Images"]) < 0) {
+										str = str.concat("<i>" + index + ":</i> " + value + "<br>");
+									}
+								});
+								cont.append("<td colspan='4'>" + str);
+								$('#table').append(tr);
+								$('#table').append(cont);
+							}
+							else {
+								i++;
+							}
 						}
 						callback()
 					});
