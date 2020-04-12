@@ -155,7 +155,7 @@
     {
         "Date": "2019-08-30",
         "Route": "West Ridge",
-        "Location": "Mt Stuart",
+        "Location": "Mt. Stuart",
         "Route Type": "Trad, Alpine",
         "Notes": "Climbed as a team of 3. Camped the first night at the base of Cascadian Couloir. Romping up the 4th class granite was the highlight. Slogging down Cascadian was the low point. Or maybe trying to drive back to Portland the same day was the low point."
     },
@@ -236,7 +236,7 @@
         "Date": "2019-04-21",
         "Route": "Worm Flows",
         "Location": "Mt. St. Helens",
-        "Style": "Ski",
+        "Route Type": "Ski",
         "Notes": "Corn harvest!"
     },
     {
@@ -266,8 +266,7 @@
         "Date": "2018-05-28",
         "Route": "Hotlum-Wintun Ridge",
         "Location": "Mt. Shasta",
-        "Route Type": "Snow, Alpine",
-        "Style": "Ski",
+        "Route Type": "Snow, Alpine, Ski",
         "Notes": "Ski trip with a couple friends from SF. We camped at 10,000ft and managed to maintain good cheer through a windy night. The skiing down was challenging for me. This served as good inspiration to get better. Now I'm ready to go back and do it in better style."
     },
     {

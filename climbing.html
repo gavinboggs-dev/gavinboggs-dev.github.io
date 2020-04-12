@@ -29,8 +29,10 @@
 					<h2>Climbing Resume</h2>
 					<ul class="actions small">
 						<li style="margin-bottom:10px">Filter:</li>
+						<li><a class="button small" onclick="loadData('',processTable)">All</a></li>
 						<li><a class="button alt small" onclick="loadData('Alpine',processTable)">Alpine</a></li>
-						<li><a class="button alt small" onclick="loadData('Rock',processTable)">Rock</a></li>
+						<li><a class="button alt small" onclick="loadData('Rock,Trad,Sport',processTable)">Rock</a></li>
+						<li><a class="button alt small" onclick="loadData('Ice',processTable)">Ice</a></li>
 						<li><a class="button alt small" onclick="loadData('Ski',processTable)">Ski</a></li>
 					</ul>
 					<div class="table-wrapper">
@@ -72,12 +74,23 @@
 				loadData("", processTable);
 				
 				function loadData(typeFilter, callback) {
-					var fileLocation = "/";
+					$('#table tr').remove();
+					//var fileLocation = "/";
+					var typeFilterArray = typeFilter.split(",");
+					var fileLocation = "http://localhost/~gavin/";
 					$.getJSON(fileLocation + "documents/climbs.json",
 					function (data) {
 						var tr;
+						var routeType;
 						for (var i = 0; i < data.length; i++) {
-							if ((typeFilter=="") | (data[i]['Route Type'].includes(typeFilter))) {
+							//console.log(
+							if (typeof data[i]["Route Type"] === "undefined") {
+								routeType = "undefined";
+							}
+							else {
+								routeType = data[i]["Route Type"];
+							}
+							if ((typeFilter=="") | (typeFilterArray.some(v => routeType.includes(v)))) {
 								tr = $('<tr/>');
 								tr.addClass("collapsible");
 								tr.append("<td class=\"collapseIndicator\">+");
@@ -104,9 +117,6 @@
 								cont.append("<td colspan='4'>" + str);
 								$('#table').append(tr);
 								$('#table').append(cont);
-							}
-							else {
-								i++;
 							}
 						}
 						callback()
