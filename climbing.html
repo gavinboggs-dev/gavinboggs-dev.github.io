@@ -75,9 +75,9 @@
 				
 				function loadData(typeFilter, callback) {
 					$('#table tr').remove();
-					//var fileLocation = "/";
 					var typeFilterArray = typeFilter.split(",");
-					var fileLocation = "http://localhost/~gavin/";
+					//var fileLocation = "http://localhost/~gavin/";
+					var fileLocation = "/";
 					$.getJSON(fileLocation + "documents/climbs.json",
 					function (data) {
 						var tr;
