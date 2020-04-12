@@ -77,7 +77,7 @@
 					function (data) {
 						var tr;
 						for (var i = 0; i < data.length; i++) {
-							if ((typeFilter==="") | (data[i].Type.includes(typeFilter))) {
+							if ((typeFilter==="") | (data[i]['Route Type'].includes(typeFilter))) {
 								tr = $('<tr/>');
 								tr.addClass("collapsible");
 								tr.append("<td class=\"collapseIndicator\">+");
