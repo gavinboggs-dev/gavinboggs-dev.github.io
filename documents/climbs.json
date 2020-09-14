@@ -549,8 +549,7 @@
         "Location": "Cathedral Ledge, NH",
         "Rating": "5.8+",
         "Route Type": "Trad",
-        "Style": "Lead",
-        "Notes": "I had to rest on a cam to take a drink of water in the middle of PTE. That one was no joke."
+        "Style": "Lead"
     },
     {
         "Date": "Unknown",
@@ -561,37 +560,6 @@
         "Style": "Lead",
         "Pitches": "5",
         "Notes": "Cool climb with a cool history."
-    },
-    {
-        "Date": "Unknown",
-        "Route": "Super Slab",
-        "Rating": "5.6",
-        "Location": "Smith Rock, OR",
-        "Route Type": "Trad"
-    },
-    {
-        "Date": "Unknown",
-        "Route": "Spiderman",
-        "Rating": "5.7",
-        "Location": "Smith Rock, OR",
-        "Style": "Lead",
-        "Route Type": "Trad"
-    },
-    {
-        "Date": "Unknown",
-        "Route": "Pine Tree Eliminate",
-        "Rating": "5.8+",
-        "Location": "Airation Buttress, NH",
-        "Style": "Lead",
-        "Route Type": "Trad"
-    },
-    {
-        "Date": "Unknown",
-        "Route": "Hot Shot",
-        "Rating": "WI4",
-        "Location": "Chapel Pond Canyon, NY",
-        "Style": "Lead",
-        "Route Type": "Ice"
     },
     {
         "Date": "Unknown",
