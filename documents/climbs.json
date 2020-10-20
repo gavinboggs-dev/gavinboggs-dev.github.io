@@ -1,5 +1,38 @@
 [
     {
+        "Date": "2020-10-19",
+        "Route": "Earth Boys",
+        "Rating": "5.10b",
+        "Location": "Smith Rock, OR",
+        "Style": "TR",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2020-10-19",
+        "Route": "Double Trouble",
+        "Rating": "5.10b",
+        "Location": "Smith Rock, OR",
+        "Style": "TR",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2020-10-19",
+        "Route": "Dancer",
+        "Rating": "5.7",
+        "Location": "Smith Rock, OR",
+        "Style": "Lead",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2020-10-19",
+        "Route": "Bowling Alley",
+        "Rating": "5.5 PG13",
+        "Notes": "Climbed the left side (wrong side?) crack, which made for a very awkward transition to the finish.",
+        "Location": "Smith Rock, OR",
+        "Style": "Lead",
+        "Route Type": "Trad"
+    },
+    {
         "Date": "2020-10-08",
         "Route": "West Ridge",
         "Rating": "5.4",
