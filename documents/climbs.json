@@ -1,5 +1,13 @@
 [
     {
+        "Date": "2021-01-23",
+        "Route": "Devil's Kitchen Headwall (DKH) - Right Variation",
+        "Rating": "AI2-3 Mod. Snow",
+        "Location": "Mt. Hood, OR",
+        "Style": "Solo",
+        "Route Type": "Ice, Snow, Alpine"
+    },
+    {
         "Date": "2021-01-01",
         "Route": "Pine Creek Falls",
         "Rating": "WI2",
@@ -395,6 +403,14 @@
         "Location": "Mount Rainier, WA",
         "Route Type": "Snow, Alpine",
         "Notes": "A friend an I joined forces with a friend of mine from high school and some of his buddies from Seattle. There were 7 of us total on two rope teams. The team opted to do the climb over 3 days, taking a full rest day in Camp Shurman on the second day."
+    },
+    {
+        "Date": "2017-06-04",
+        "Route": "Unknown [Just Shy Of The Tip]",
+        "Rating": "5.6",
+        "Location": "Rooster Rock, OR",
+        "Style": "Lead",
+        "Route Type": "Sport"
     },
     {
         "Date": "2016",
