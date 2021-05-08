@@ -78,12 +78,13 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script>
-				loadData(processTable);
+				var fileLocation = "/";
 				var climbData;
 				var filterButtons = $(".filt");
+
+				loadData(processTable);
 				
 				function loadData(callback) {
-					var fileLocation = "/";
 					$.getJSON(fileLocation + "documents/climbs.json",
 					function (data) {
 						climbData = data;
