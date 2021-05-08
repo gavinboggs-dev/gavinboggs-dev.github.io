@@ -186,11 +186,9 @@
 				processTable();
 				//Control opening and closing of table rows
 				function processTable(){
-					console.log("start process");
 					var coll = document.getElementsByClassName("collapsible");
 					var i;
 					for (i = 0; i < coll.length; i++) {
-						console.log("item");
 						coll[i].addEventListener("click", function() {
 							this.classList.toggle("active");
 							var content = this.nextElementSibling;
@@ -204,8 +202,6 @@
 							}
 						});
 					}
-					console.log("end process");
-					console.log(coll.length);
 				}
 			</script> 
 			<script>
