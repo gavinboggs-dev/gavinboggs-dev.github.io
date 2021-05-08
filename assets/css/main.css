@@ -1835,7 +1835,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #7a7788;
+			background-color: #9c9c9c;
 		}
 
 		input[type="submit"]:active,
@@ -1843,7 +1843,12 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #97939f;
+			background-color: #a0a0a0;
+		}
+
+		button.selected,
+		.button.selected {
+			background-color: #dbdbdb !important;
 		}
 
 		input[type="submit"].icon,
@@ -3222,7 +3227,7 @@
 /* Footer */
 
 	#footer {
-		padding: 2em 0 6em 0;
+		padding: 2em 0 1em 0;
 		background: #f6f6f6;
 		color: #aaa;
 		text-align: center;
@@ -3254,7 +3259,7 @@
 				}
 
 		#footer .copyright {
-			margin: 2em 0;
+			margin: 1em 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
