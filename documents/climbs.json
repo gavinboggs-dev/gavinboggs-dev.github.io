@@ -141,6 +141,49 @@
         "Route Type": "Ice, Snow, Alpine"
     },
     {
+        "Date": "2020-07-13",
+        "Route": "Jefferson Park Glacier",
+        "Rating": "Steep Snow 5.5",
+        "Location": "Mt. Jefferson, OR",
+        "Route Type": "Ice, Snow, Rock, Alpine"
+        "Affiliation": "Team Bullshit (ICS)"
+    },
+    {
+        "Date": "2020-07-02",
+        "Route": "South Side",
+        "Location": "Mt. Adams, WA",
+        "Route Type": "Ski",
+        "Notes": "C2C. A couple weeks too late."
+    },
+    {
+        "Date": "2020-06-19",
+        "Route": "NE Arete",
+        "Rating": "Steep Snow 5.choss",
+        "Location": "North Sister, OR",
+        "Route Type": "Snow, Rock, Alpine"
+        "Notes": "C2C climb with Sam. Got a little lost on the descent down the S Ridge, but had a great time."
+    },
+    {
+        "Date": "2020-05-31",
+        "Route": "South Side, Devil's Lake",
+        "Location": "South Sister, OR",
+        "Route Type": "Ski",
+        "Notes": "Good crew, good corn. Skied from the summit."
+    },
+    {
+        "Date": "2020-05-27",
+        "Route": "SW Chutes",
+        "Location": "Mt. Adams, WA",
+        "Route Type": "Ski"
+    },
+    {
+        "Date": "2020-03-21",
+        "Route": "Worm Flows",
+        "Location": "Mt. St. Helens, WA",
+        "Route Type": "Ski",
+        "Notes": "Perfect corn!"
+    },
+    {
         "Date": "2020-03-17",
         "Route": "Icefall Chute (Boy Scouts Chute)",
         "Rating": "AI2 Mod. Snow PG13",
@@ -430,7 +473,7 @@
         "Location": "Mt. Hood, OR",
         "Route Type": "Snow, Alpine",
         "Style": "Solo with skis",
-        "Notes": "Camped at Illumination Saddle. Got an early start because I was too cold to sleep. This was my first time on the West side of Mt. Hood, OR. Skied down Old Chute and returned to camp in 2.5h."
+        "Notes": "Camped at Illumination Saddle. Got an early start because I was too cold to sleep. This was my first time on the West side of Mt. Hood. Skied down Old Chute and returned to camp in 2.5h."
     },
     {
         "Date": "2018-12-09",
@@ -445,7 +488,7 @@
         "Date": "2018-07-04",
         "Route": "South Spur",
         "Location": "Mount Adams, WA",
-        "Notes": "Fun outing with a couple good friends. We camped at Lunch Counter and made an evening of it. Saw the most amazing shooting star during an early morning pee outing. I can't wait to go back with skis."
+        "Notes": "Fun outing with a couple good friends. We camped at Lunch Counter and made an evening of it. Saw the most amazing shooting star in my life."
     },
     {
         "Date": "2018-05-28",
