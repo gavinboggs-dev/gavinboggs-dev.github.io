@@ -1,173 +1,222 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Climbing and Skiing - Gavin Boggs</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
+  <head>
+    <title>Climbing and Skiing - Gavin Boggs</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
 
-		<!-- Header -->
-			<header id="header">
-				<h1><strong>Climbing and Skiing</strong></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="engineering.html">Engineering and Data</a></li>
-					</ul>
-				</nav>
-			</header>
+  <body>
+    <header id="header">
+      <h1><strong>Climbing and Skiing</strong></h1>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="engineering.html">Engineering and Data</a></li>
+        </ul>
+      </nav>
+    </header>
 
-			<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-		<!-- Main -->
-			<section id="main" class="wrapper">
-				<div class="container">
-					<a class="image fit"><img src="images/hoodview.jpg" alt="" /></a>
-					<h2>Climbing Bio</h2>
-						<p>	- Rock climbing and mountaineering since 2009<br>
-							- Ice climbing since 2010<br>
-							- Ski mountaineering since 2017<br>
-							- Climbing preferences:<br>
-							&emsp;Fast and light ski mountaineering<br>
-							&emsp;Alpine multi-pitch adventures on ice, snow, and/or rock - Lead comfort zones: Sport: 5.9; Trad: 5.7; Ice: WI3
-						</p>
-					<h2>Climbing Resume</h2>
-					<ul class="actions small">
-						<li style="margin-bottom:10px">Filter:</li>
-						<li><a id="filt-All" class="button small alt filt selected" onclick="processTable('', this)">All</a></li>
-						<li><a id="filt-Alpine" class="button alt filt small" onclick="processTable('Alpine', this)">Alpine</a></li>
-						<li><a id="filt-Rock" class="button alt filt small" onclick="processTable('Rock,Trad,Sport', this)">Rock</a></li>
-						<li><a id="filt-Ice" class="button alt filt small" onclick="processTable('Ice', this)">Ice</a></li>
-						<li><a id="filt-Ski" class="button alt filt small" onclick="processTable('Ski', this)">Ski</a></li>
-					</ul>
-					<div class="table-wrapper">
-						<table id="table">
-							<thead>
-								<tr>
-									<th></th>
-									<th style="width:140px">Date</th>
-									<th style="width:40%">Route</th>
-									<th>Location</th>
-								</tr>
-							</thead>
-						</table>
-					</div>
-					<!-- <div style="padding-top:2em" class="row">
-							<ul class="actions">
-								<li><a href="documents/GavinBoggsClimbingResume_2019.pdf" target="_blank" class="button">Climbing Resume (PDF)</a></li>
-							</ul>
-					</div> -->
-				</div>
-			</section>
+    <section id="main" class="wrapper">
+      <div class="container">
+        <a class="image fit"><img src="images/hoodview.jpg" alt="" /></a>
+        <h2>Climbing Bio</h2>
+        <p>
+          - Rock climbing and mountaineering since 2009<br />
+          - Ice climbing since 2010<br />
+          - Ski mountaineering since 2017<br />
+          - Climbing preferences:<br />
+          &emsp;Fast and light ski mountaineering<br />
+          &emsp;Alpine multi-pitch adventures on ice, snow, and/or rock - Lead
+          comfort zones: Sport: 5.10; Trad: 5.8; Ice: WI3
+        </p>
+        <h2>Climbing Resume</h2>
+        <ul class="actions small">
+          <li style="margin-bottom: 10px">Filter:</li>
+          <li>
+            <a
+              id="filt-All"
+              class="button small alt filt selected"
+              onclick="processTable('', this)"
+              >All</a
+            >
+          </li>
+          <li>
+            <a
+              id="filt-Alpine"
+              class="button alt filt small"
+              onclick="processTable('Alpine', this)"
+              >Alpine</a
+            >
+          </li>
+          <li>
+            <a
+              id="filt-Rock"
+              class="button alt filt small"
+              onclick="processTable('Rock,Trad,Sport', this)"
+              >Rock</a
+            >
+          </li>
+          <li>
+            <a
+              id="filt-Ice"
+              class="button alt filt small"
+              onclick="processTable('Ice', this)"
+              >Ice</a
+            >
+          </li>
+          <li>
+            <a
+              id="filt-Ski"
+              class="button alt filt small"
+              onclick="processTable('Ski', this)"
+              >Ski</a
+            >
+          </li>
+        </ul>
+        <div class="table-wrapper">
+          <table id="table">
+            <thead>
+              <tr>
+                <th></th>
+                <th style="width: 140px">Date</th>
+                <th style="width: 40%">Route</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </section>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<ul class="icons">
-						<li><a href="mailto:gavin@gavinboggs.com" class="icon fa-send" onclick="mailto(this);event.preventDefault()"></a></li>
-						<li><a href="https://www.linkedin.com/in/gavinboggs/" target="_blank" class="icon fa-linkedin"></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Gavin Boggs 2020</li>
-					</ul>
-				</div>
-			</footer>
+    <footer id="footer">
+      <div class="container">
+        <ul class="icons">
+          <li>
+            <a
+              href="mailto:gavin@gavinboggs.com"
+              class="icon fa-send"
+              onclick="mailto(this);event.preventDefault()"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/gavinboggs/"
+              target="_blank"
+              class="icon fa-linkedin"
+            ></a>
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Gavin Boggs 2020</li>
+        </ul>
+      </div>
+    </footer>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script>
-				var fileLocation = "/";
-				var climbData;
-				var filterButtons = $(".filt");
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script>
+      var fileLocation = "/";
+      var climbData;
+      var filterButtons = $(".filt");
 
-				loadData(processTable);
-				
-				function loadData(callback) {
-					$.getJSON(fileLocation + "documents/climbs.json",
-					function (data) {
-						climbData = data;
-						callback("", filterButtons[0]);
-					});
+      loadData(processTable);
+
+      function loadData(callback) {
+        $.getJSON(fileLocation + "documents/climbs.json", function (data) {
+          climbData = data;
+          callback("", filterButtons[0]);
+        });
+      }
+
+      function processTable(typeFilter, e) {
+        filterButtons.map((i) => {
+          filterButtons[i].classList.remove("selected");
+        });
+        e.classList.add("selected");
+        var data = climbData;
+        $("#table tr").remove();
+        var typeFilterArray = typeFilter.split(",");
+        var tr;
+        var routeType;
+        for (var i = 0; i < data.length; i++) {
+          if (typeof data[i]["Route Type"] === "undefined") {
+            routeType = "undefined";
+          } else {
+            routeType = data[i]["Route Type"];
+          }
+          if (
+            (typeFilter == "") |
+            typeFilterArray.some((v) => routeType.includes(v))
+          ) {
+            tr = $("<tr/>");
+            tr.addClass("collapsible");
+            tr.append('<td class="collapseIndicator">+');
+            tr.append("<td>" + data[i].Date);
+            tr.append("<td>" + data[i].Route);
+            tr.append("<td>" + data[i].Location);
+            cont = $("<tr/>");
+            cont.addClass("content");
+            cont.append("<td>");
+            str = "";
+            if ("Images" in data[i]) {
+              str = str.concat('<div class="image right thumb">\n');
+              for (var j = 0; j < data[i].Images.length; j++) {
+                str = str.concat(
+                  '<a class="image right"><img src=' +
+                    fileLocation +
+                    "images/" +
+                    data[i].Images[j] +
+                    "></a>\n"
+                );
+              }
+              str = str.concat("</div>");
+            }
+            $.each(data[i], function (index, value) {
+              if (
+                $.inArray(index, ["Route", "Date", "Location", "Images"]) < 0
+              ) {
+                str = str.concat("<i>" + index + ":</i> " + value + "<br>");
+              }
+            });
+            cont.append("<td colspan='4'>" + str);
+            $("#table").append(tr);
+            $("#table").append(cont);
+          }
         }
 
-				function processTable(typeFilter, e){
-					filterButtons.map(i => {
-						filterButtons[i].classList.remove("selected")
-					});
-					e.classList.add("selected");
-					var data = climbData;
-					$('#table tr').remove();
-					var typeFilterArray = typeFilter.split(",");
-					var tr;
-					var routeType;
-					for (var i = 0; i < data.length; i++) {
-						if (typeof data[i]["Route Type"] === "undefined") {
-							routeType = "undefined";
-						}
-						else {
-							routeType = data[i]["Route Type"];
-						}
-						if ((typeFilter=="") | (typeFilterArray.some(v => routeType.includes(v)))) {
-							tr = $('<tr/>');
-							tr.addClass("collapsible");
-							tr.append("<td class=\"collapseIndicator\">+");
-							tr.append("<td>" + data[i].Date);
-							tr.append("<td>" + data[i].Route);
-							tr.append("<td>" + data[i].Location);
-							cont = $('<tr/>');
-							cont.addClass("content");
-							cont.append("<td>");
-							str = "";
-							if ("Images" in data[i]) {
-								str = str.concat("<div class=\"image right thumb\">\n");
-								for (var j = 0; j < data[i].Images.length; j++) {
-									str = str.concat("<a class=\"image right\"><img src=" + fileLocation + "images/" + data[i].Images[j] + "></a>\n");
-								}
-								str = str.concat("</div>");
-							}
-							$.each(data[i], function( index, value ) {
-								if ($.inArray(index,["Route","Date","Location","Images"]) < 0) {
-									str = str.concat("<i>" + index + ":</i> " + value + "<br>");
-								}
-							});
-							cont.append("<td colspan='4'>" + str);
-							$('#table').append(tr);
-							$('#table').append(cont);
-						}
-					}
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "contents") {
+              content.style.display = "none";
+              this.firstElementChild.innerHTML = "+";
+            } else {
+              content.style.display = "contents";
+              this.firstElementChild.innerHTML = "-";
+            }
+          });
+        }
+      }
+    </script>
 
-					var coll = document.getElementsByClassName("collapsible");
-					var i;
-					for (i = 0; i < coll.length; i++) {
-						coll[i].addEventListener("click", function() {
-							this.classList.toggle("active");
-							var content = this.nextElementSibling;
-							if (content.style.display === "contents") {
-								content.style.display = "none";
-								this.firstElementChild.innerHTML = "+";
-							}
-							else {
-								content.style.display = "contents";
-								this.firstElementChild.innerHTML = "-";
-							}
-						});
-					}
-				}
-			</script>
-			
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
-			<script>
-				// Open mailto links in a new tab
-				function mailto(th) {
-					var url = th.getAttribute('href');
-					window.open(url);
-				}
-			</script>
-	</body>
+    <script>
+      // Open mailto links in a new tab
+      function mailto(th) {
+        var url = th.getAttribute("href");
+        window.open(url);
+      }
+    </script>
+  </body>
 </html>
