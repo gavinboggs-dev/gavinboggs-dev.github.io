@@ -1,5 +1,61 @@
 [
     {
+        "Date": "2021-06-06",
+        "Route": "Time To Shower",
+        "Rating": "5.8",
+        "Location": "Smith Rock, OR",
+        "Style": "Lead",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-06-06",
+        "Route": "Phone Call From Satan",
+        "Rating": "5.9",
+        "Location": "Smith Rock, OR",
+        "Style": "Lead",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-06-06",
+        "Route": "Feel the Chi",
+        "Rating": "5.10a/b",
+        "Location": "Smith Rock, OR",
+        "Style": "TR",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-06-06",
+        "Route": "COVID-5.10",
+        "Rating": "5.10b",
+        "Location": "Smith Rock, OR",
+        "Style": "TR",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-06-05",
+        "Route": "Why Art Thou?",
+        "Rating": "5.8",
+        "Location": "Smith Rock, OR",
+        "Style": "Lead",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-06-05",
+        "Route": "Thieves Like Us",
+        "Rating": "5.10c",
+        "Location": "Smith Rock, OR",
+        "Style": "Follow",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-06-05",
+        "Route": "Chalk Therapy",
+        "Rating": "5.10b",
+        "Location": "Smith Rock, OR",
+        "Style": "TR",
+        "Route Type": "Sport"
+    },
+    {
         "Date": "2021-05-23",
         "Route": "One of These Days (AKA Mohel With A Dull Knife)",
         "Rating": "5.9",
@@ -108,12 +164,12 @@
         "Route Type": "Ice, Alpine"
     },
     {
-      "Date": "2020-10-29",
-      "Route": "Stormy Monday Couloir",
-      "Rating": "AI3, Steep Snow",
-      "Location": "Mt. Adams, WA",
-      "Route Type": "Ice, Alpine",
-      "Notes": "3000ft. Slope to 60°. Very aesthetic route. Terrible rock fall for the lower half of the route. Moved too slowly and topped out on the ridge close to sunset. Had an unplanned bivy while descending the North Ridge. The morning brought blizzard, high wind, and whiteout. Activated SOS. Descended the rest of the North Ridge in the worst conditions I've ever climbed in."
+        "Date": "2020-10-29",
+        "Route": "Stormy Monday Couloir",
+        "Rating": "AI3, Steep Snow",
+        "Location": "Mt. Adams, WA",
+        "Route Type": "Ice, Alpine",
+        "Notes": "3000ft. Slope to 60\u00b0. Very aesthetic route. Terrible rock fall for the lower half of the route. Moved too slowly and topped out on the ridge close to sunset. Had an unplanned bivy while descending the North Ridge. The morning brought blizzard, high wind, and whiteout. Activated SOS. Descended the rest of the North Ridge in the worst conditions I've ever climbed in."
     },
     {
         "Date": "2020-10-19",
@@ -230,7 +286,6 @@
         "Images": [
             "cooper30.jpg"
         ]
-
     },
     {
         "Date": "2020-03-10",
