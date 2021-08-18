@@ -92,7 +92,7 @@
         "Route": "Crater Rock Direct",
         "Rating": "AI2",
         "Location": "Mt. Hood, OR",
-        "Style": "Solo",
+        "Style": "Simul-Solo",
         "Route Type": "Alpine",
         "Notes": "Bottom-to-top climb of Crater Rock starting at the SW Gully. It goes!"
     },
@@ -101,7 +101,8 @@
         "Route": "Devil's Kitchen Headwall (DKH) - Left Variation (V1)",
         "Rating": "AI2-3 Steep Snow PG13",
         "Location": "Mt. Hood, OR",
-        "Style": "Solo",
+        "Style": "Simul-Solo",
+        "Team Size": "2",
         "Route Type": "Ice, Snow, Alpine"
     },
     {
@@ -110,7 +111,8 @@
         "Rating": "Mod. Snow",
         "Location": "Mt. Hood, OR",
         "Notes": "Summitted, skied Old Chute, climbed DKH V3, skied Wy'East Face, traversed across White River back to Timberline, skied back to the top of Palmer, snapped tip off of one ski on a snow bank \ud83d\ude22, skied down.",
-        "Style": "Solo",
+        "Style": "Simul-Solo",
+        "Team Size": "3",
         "Route Type": "Snow, Alpine"
     },
     {
@@ -130,7 +132,8 @@
         "Route": "Flying Buttress (DKH V3)",
         "Rating": "AI2 Mod. Snow",
         "Location": "Mt. Hood, OR",
-        "Style": "Solo",
+        "Style": "Simul-Solo",
+        "Team Size": "3",
         "Route Type": "Snow, Alpine"
     },
     {
@@ -138,7 +141,8 @@
         "Route": "Devil's Kitchen Headwall (DKH) - Right Variation (V2)",
         "Rating": "AI2-3 Mod. Snow",
         "Location": "Mt. Hood, OR",
-        "Style": "Solo",
+        "Style": "Simul-Solo",
+        "Team Size": "3",
         "Route Type": "Ice, Snow, Alpine"
     },
     {
@@ -168,8 +172,10 @@
         "Route": "Stormy Monday Couloir",
         "Rating": "AI3, Steep Snow",
         "Location": "Mt. Adams, WA",
+        "Style": "Running belay",
+        "Team Size": "3",
         "Route Type": "Ice, Alpine",
-        "Notes": "3000ft. Slope to 60\u00b0. Very aesthetic route. Terrible rock fall for the lower half of the route. Moved too slowly and topped out on the ridge close to sunset. Had an unplanned bivy while descending the North Ridge. The morning brought blizzard, high wind, and whiteout. Activated SOS. Descended the rest of the North Ridge in the worst conditions I've ever climbed in."
+        "Notes": "3000ft. Slope to 60deg. Very aesthetic route. Terrible rock fall for the lower half of the route. Moved too slowly and topped out on the ridge close to sunset. Had an unplanned bivy while descending the North Ridge. The morning brought blizzard, high wind, and whiteout. Activated SOS. Descended the rest of the North Ridge in the worst conditions I've ever climbed in."
     },
     {
         "Date": "2020-10-19",
