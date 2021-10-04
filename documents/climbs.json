@@ -1,5 +1,37 @@
 [
     {
+        "Date": "2021-10-03",
+        "Route": "Yeti's Betty",
+        "Rating": "5.8",
+        "Location": "(7) Gods and Monsters Wall, OR",
+        "Style": "TR",
+        "Route Type": "Trad"
+    },
+    {
+        "Date": "2021-10-03",
+        "Route": "Point of Diminishing Returns (PDR)",
+        "Rating": "5.9",
+        "Location": "(5) The Leaning Tower Area, OR",
+        "Style": "TR",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-10-03",
+        "Route": "Lean on Me",
+        "Rating": "5.10a",
+        "Location": "(5) The Leaning Tower Area, OR",
+        "Style": "TR",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-10-03",
+        "Route": "GSR (Good Sport Route)",
+        "Rating": "5.7",
+        "Location": "(4) Wolf Point, OR",
+        "Style": "Lead",
+        "Route Type": "Sport"
+    },
+    {
         "Date": "2021-09-01",
         "Route": "South Face",
         "Rating": "5.4",
