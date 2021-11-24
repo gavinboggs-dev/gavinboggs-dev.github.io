@@ -36,7 +36,7 @@
         "Route": "South Face",
         "Rating": "5.4",
         "Location": "The Tooth, WA",
-        "Route Type": "Trad"
+        "Route Type": "Trad, Alpine"
     },
     {
         "Date": "2021-06-06",
@@ -96,7 +96,7 @@
     },
     {
         "Date": "2021-05-23",
-        "Route": "One of These Days (AKA Mohel With A Dull Knife)",
+        "Route": "One of These Days",
         "Rating": "5.9",
         "Location": "Frenchman Coulee, WA",
         "Style": "Lead",
