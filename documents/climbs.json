@@ -65,6 +65,14 @@
     },
     {
         "Date": "2021-10-03",
+        "Route": "GSR (Great Sport Route)",
+        "Rating": "5.7+",
+        "Location": "(4) Wolf Point, OR",
+        "Style": "Lead",
+        "Route Type": "Sport"
+    },
+    {
+        "Date": "2021-10-03",
         "Route": "GSR (Good Sport Route)",
         "Rating": "5.7",
         "Location": "Klinger Spring, OR",
