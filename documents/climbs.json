@@ -1,5 +1,12 @@
 [
     {
+        "Date": "2023-09-11",
+        "Route": "Pleasure Cruise",
+        "Rating": "5.9",
+        "Location": "Northwest Face, WA",
+        "Route Type": "Trad"
+    },
+    {
         "Date": "2022-08-22",
         "Route": "Ragged Edge",
         "Rating": "5.7",
